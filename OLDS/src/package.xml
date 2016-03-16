@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conference_Pack</fullName>
+    <types>
+        <members>EmailManager</members>
+        <members>SafewayDiscountCalculator</members>
+        <members>SpeakerControllerExtension</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SpeakerForm</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>RejectDoubleBooking</members>
+        <members>SendConfirmationEmail</members>
+        <members>incrementnumber</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>SafewayConfig__c.CurrentNumber__c</members>
+        <members>SafewayConfig__c.Price__c</members>
+        <members>Session_Speaker__c.Session__c</members>
+        <members>Session_Speaker__c.Speaker__c</members>
+        <members>Session__c.Description__c</members>
+        <members>Session__c.Level__c</members>
+        <members>Session__c.Session_Date__c</members>
+        <members>Speaker__c.Bio__c</members>
+        <members>Speaker__c.Email__c</members>
+        <members>Speaker__c.First_Name__c</members>
+        <members>Speaker__c.Last_Name__c</members>
+        <members>Speaker__c.Picture_Path__c</members>
+        <members>Speaker__c.Picture__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>SafewayConfig__c</members>
+        <members>Session_Speaker__c</members>
+        <members>Session__c</members>
+        <members>Speaker__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Session__c</members>
+        <members>Speaker__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>SafewayConfig__c-SafewayConfig Layout</members>
+        <members>Session_Speaker__c-Session Speaker Layout</members>
+        <members>Session__c-Session Layout</members>
+        <members>Speaker__c-Speaker Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Session__c.All</members>
+        <members>Speaker__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>31.0</version>
+</Package>
